@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity"
+    >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom">
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+
+            android:layout_marginTop="30dp"
+            android:background="@drawable/type"
+
+            android:gravity="center_horizontal"
+            app:itemIconTint="@color/purple_200"
+            app:itemTextColor="#FFFF"
+
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/next" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+            <include layout="@layout/bottom_sheet" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#191B22"
+            app:itemIconTint="#FBFBFB"
+            app:itemTextColor="#FFFF"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_menu" />
+
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</RelativeLayout>
+
+
+

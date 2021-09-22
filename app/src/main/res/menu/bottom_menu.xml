@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    >
+
+    <item android:id="@+id/bus_fragment"
+        android:icon="@drawable/nav_home"
+        android:title="Home"
+
+
+
+
+        />
+    <item android:id="@+id/road"
+        android:icon="@drawable/nav_route"
+        android:title="@string/Routes"/>
+    <item android:id="@+id/activity"
+        android:icon="@drawable/nav_event"
+        android:title="@string/Schedules"/>
+
+
+    <item android:title="@string/More"
+        android:id="@+id/mores"
+        android:icon="@drawable/nav_more"
+
+
+        />
+
+
+
+</menu>

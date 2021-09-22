@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/nav_nav"
+
+
+        android:title="" />
+
+    <group
+
+        android:id="@+id/group1"
+        android:iconTint="#F3F2F2"
+        >
+
+
+        <item
+
+            android:id="@+id/locatin"
+            android:icon="@drawable/nav_bus"
+
+
+            android:title="" />
+    </group>
+
+    <item
+        android:id="@+id/locati"
+        android:icon="@drawable/nav_alert"
+
+
+        android:title="" />
+
+
+</menu>

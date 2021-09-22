@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GpsTracking</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="bus">Bus</string>
+    <string name="route">Route</string>
+    <string name="event">Event</string>
+
+    <string name="string_more">string/more</string>
+    <string name="stops">stop</string>
+    <string name="Stops">Stops</string>
+    <string name="Schedules">Schedules</string>
+    <string name="More">More</string>
+    <string name="location">location</string>
+    <string name="title_activity_searching">searching</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-anydpi/buttoncolor.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable-anydpi/nav_bus.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/drawable-anydpi/nav_event.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/drawable-anydpi/nav_more.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/drawable-anydpi/nav_route.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13125" />
+        <entry key="app/src/main/res/drawable-xhdpi/searchbar.xml" value="0.14722222222222223" />
+        <entry key="app/src/main/res/drawable/button_background.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/drawable/button_color.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/frame_background.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/drawable/ic_baseline_directions_bus_24.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/drawable/ic_launch_background.xml" value="0.13125" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.13125" />
+        <entry key="app/src/main/res/drawable/newbus.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/drawable/newevent.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/drawable/newmore.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/drawable/type.xml" value="0.1527777777777778" />
+        <entry key="app/src/main/res/layout/activity_bottomsheet.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_post.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/activity_searching.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_start.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/bottom_sheet.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_bus.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/fragment_bus_fragment.xml" value="0.11510416666666666" />
+        <entry key="app/src/main/res/layout/fragment_event.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_mores.xml" value="0.11510416666666666" />
+        <entry key="app/src/main/res/layout/fragment_road.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/fragment_route.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/header_layout.xml" value="0.23550724637681159" />
+        <entry key="app/src/main/res/layout/swipe_up.xml" value="0.1328125" />
+        <entry key="app/src/main/res/menu-v26/next.xml" value="0.1401360544217687" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.2578125" />
+        <entry key="app/src/main/res/menu/next.xml" value="0.2578125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launch.xml" value="0.13125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launch_round.xml" value="0.13125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

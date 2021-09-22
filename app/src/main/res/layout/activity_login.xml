@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp">
+
+    <androidx.legacy.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="150dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:padding="10dp"
+        android:id="@+id/username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:id="@+id/userpassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginTop="15dp"
+        android:textColor="#0B68B1"
+        android:padding="10dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/Forgot_Password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="15dp"
+        android:text="Login"
+
+        android:padding="10dp"
+        android:id="@+id/register"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:visibility="gone"
+        />
+    <androidx.legacy.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="130dp" />
+    <View style="@style/Divider.Horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+       android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="-40dp"
+        android:textColor="#0B68B1"
+        android:padding="10dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/login_register"/>
+
+
+
+
+
+</LinearLayout>
